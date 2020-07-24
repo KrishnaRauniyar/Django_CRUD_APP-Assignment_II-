@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail</title>
+</head>
+<body>
+<h1>Detail of Users</h1>
+First Name: {{ user_obj.first_name }} <br>
+Middle Name: {% if user_obj.middle_name %}{{ user_obj.middle_name}}{% else %} No middle name {% endif %} <br>
+Last Name: {{ user_obj.last_name}} <br>
+Email: {{ user_obj.email}} <br>
+Bio: {{ user_obj.bio}}
+
+</body>
+</html>
